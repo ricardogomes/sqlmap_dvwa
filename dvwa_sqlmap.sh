@@ -18,6 +18,7 @@ cat <<EOF
 PHPSESSID=$PHPSESSID; security=low
 EOF
 }
+function urldecode() { : "${*//+/ }"; echo -e "${_//%/\\x}"; }
 
 # Environment variables
 TEMP_OUTPUT=/tmp/temp_output
@@ -27,7 +28,7 @@ echo "Testing SQLMAP against DVWA"
 echo "[Docker] Setting up DVWA"
 docker run --rm --name dvwa -itd -p 80:80 vulnerables/web-dvwa 1> /dev/null
 
-echo "[Docker] Wainting for DVWA to be live on http://localhost"
+echo "[Docker] Waiting for DVWA to be live on http://localhost"
 
 until $(curl --output /dev/null --silent --head --fail http://localhost); do
     printf '.'
@@ -88,9 +89,19 @@ echo "[SQLMAP] Testing DVWA - SQL Injection"
 docker run --rm -it --network host -v /tmp/sqlmap:/root/.sqlmap/ paoloo/sqlmap  \
 	-u "http://localhost/vulnerabilities/sqli_blind/?id=1&Submit=Submit" \
 	--cookie="$(generate_cookie)"  \
-	--dbms=MySQL --flush-session 
+	--dbms=MySQL --flush-session --level=1 --technique=B --batch -v 3 -t /root/.sqlmap/requests
 
 echo "[Docker] Clearing docker environment"
 docker container stop dvwa
+
+
+grep -i request -A 1 /tmp/sqlmap/requests > ./requests
+
+[ -f ./decoded ] && rm ./decoded
+cat ./requests | while read line 
+do
+	decoded=$(urldecode $line)
+	echo $decoded >> ./decoded
+done
 
 
