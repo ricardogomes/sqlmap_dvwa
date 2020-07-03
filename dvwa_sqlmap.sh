@@ -89,7 +89,7 @@ echo "[SQLMAP] Testing DVWA - SQL Injection"
 docker run --rm -it --network host -v /tmp/sqlmap:/root/.sqlmap/ paoloo/sqlmap  \
 	-u "http://localhost/vulnerabilities/sqli_blind/?id=1&Submit=Submit" \
 	--cookie="$(generate_cookie)"  \
-	--dbms=MySQL --flush-session --level=1 --technique=B --batch -v 3 -t /root/.sqlmap/requests
+	--dbms=MySQL --flush-session --level=1 --technique=B --batch -v 6 -t /root/.sqlmap/requests
 
 echo "[Docker] Clearing docker environment"
 docker container stop dvwa
