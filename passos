@@ -1,8 +1,9 @@
 
-1 - usar o random para gerar parametros onde se consiga uma resposta 200
+1 - usar o random para gerar parametros onde se consiga uma resposta 200 e onde de consiga uma resposta 4xx
 2 - com os parametros anteriores testar a injecão "TRUE=TRUE"
 3 - com os parametros anteriores testar a injecão "TRUE=FALSE"
-4 - injectavel -> [1] = [2] != [3] ( = -> HTTP 200 & LENGTH X == LENGTH Y)
+2 - com os parametros anteriores (4xx) testar a injecão "TRUE=TRUE"
+4 - injectavel -> [1] = [2] != [3] = [4] ( = -> HTTP 200 & LENGTH X == LENGTH Y)
 
 
 
